@@ -1,0 +1,61 @@
+
+header{
+    text-align: center;
+}
+h1 a{
+    font-size: 60px;
+    color: black;
+    text-decoration: none;
+}
+
+hr{
+    border: 2px solid gray;
+    width: 80%;
+    margin: 10px auto;
+}
+
+h1 span {
+    color: darkgreen;
+
+   
+}
+
+main{
+    width:60%;
+    margin:0 auto;
+}
+
+.image_perso{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+ul li  ,ul li a{
+    color: #34d913;
+    text-decoration: none;
+}
+
+.block_images{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+img{
+    display: block;
+    width: 25%;
+}
+
+footer{
+    min-height: 60px;
+    background-color: #dddddd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    margin:0;
+}
